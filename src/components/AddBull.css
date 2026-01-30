@@ -1,0 +1,258 @@
+.add-bull-container {
+  min-height: 100vh;
+}
+
+.add-bull-header {
+  background: linear-gradient(135deg, #d97706 0%, #ea580c 100%);
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px 0;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.back-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 16px;
+  transition: color 0.3s ease;
+}
+
+.back-btn:hover {
+  color: #fde68a;
+}
+
+.add-bull-header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.spacer {
+  width: 96px;
+}
+
+.add-bull-main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+.form-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  margin-bottom: 32px;
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.form-icon {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.form-header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.form-header p {
+  color: #6b7280;
+}
+
+.bull-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+.required {
+  color: #ef4444;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #d97706;
+}
+
+.form-hint {
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #d97706 0%, #ea580c 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 16px;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(135deg, #b45309 0%, #c2410c 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.message {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.message.success {
+  background: #d1fae5;
+  border: 1px solid #10b981;
+  color: #065f46;
+}
+
+.message.error {
+  background: #fee2e2;
+  border: 1px solid #ef4444;
+  color: #991b1b;
+}
+
+.bulls-list-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+}
+
+.bulls-list-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.bulls-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.empty-message {
+  text-align: center;
+  color: #6b7280;
+  padding: 32px;
+}
+
+.bull-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background: #f9fafb;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.bull-item:hover {
+  background: #f3f4f6;
+}
+
+.bull-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.bull-number {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.bull-name {
+  color: #374151;
+}
+
+.bull-owner {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #ef4444;
+  font-size: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 4px 8px;
+  transition: color 0.3s ease;
+}
+
+.delete-btn:hover {
+  color: #dc2626;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-wrap: wrap;
+  }
+  
+  .spacer {
+    display: none;
+  }
+  
+  .add-bull-header h1 {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+  }
+  
+  .form-card {
+    padding: 24px;
+  }
+}

@@ -1,0 +1,330 @@
+.live-counting-container {
+  min-height: 100vh;
+}
+
+.live-counting-header {
+  background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px 0;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-btn:hover {
+  color: #bbf7d0;
+}
+
+.live-counting-header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.live-counting-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+.input-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  margin-bottom: 24px;
+}
+
+.input-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.input-icon {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.input-header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.input-section {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.bull-number-input {
+  width: 100%;
+  padding: 16px;
+  border: 4px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-align: center;
+  transition: border-color 0.3s ease;
+}
+
+.bull-number-input:focus {
+  outline: none;
+  border-color: #16a34a;
+}
+
+.search-btn {
+  width: 100%;
+  margin-top: 16px;
+  padding: 16px;
+  background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-btn:hover {
+  background: linear-gradient(135deg, #15803d 0%, #166534 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.bull-details-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 48px;
+  margin-bottom: 24px;
+}
+
+.bull-display {
+  text-align: center;
+}
+
+.bull-icon {
+  font-size: 4rem;
+  margin-bottom: 16px;
+}
+
+.bull-name-display {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.bull-owner-display {
+  font-size: 1.25rem;
+  color: #6b7280;
+  margin-bottom: 4px;
+}
+
+.bull-owner-display span {
+  font-weight: 600;
+  color: #374151;
+}
+
+.bull-village-display {
+  font-size: 1.125rem;
+  color: #9ca3af;
+  margin-bottom: 16px;
+}
+
+.bull-number-display {
+  font-size: 0.875rem;
+  color: #d1d5db;
+  margin-bottom: 24px;
+}
+
+.count-display {
+  background: #d1fae5;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.count-label {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.count-value {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #16a34a;
+}
+
+.increment-btn {
+  width: 100%;
+  padding: 24px;
+  background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.increment-btn:hover {
+  background: linear-gradient(135deg, #15803d 0%, #166534 100%);
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.increment-btn:active {
+  transform: scale(0.98);
+}
+
+.table-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+}
+
+.table-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.table-header h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.refresh-btn {
+  padding: 8px 16px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.refresh-btn:hover {
+  background: #1d4ed8;
+}
+
+.empty-table {
+  text-align: center;
+  padding: 48px;
+  color: #6b7280;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.count-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.count-table thead {
+  background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+}
+
+.count-table th {
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 700;
+  color: #374151;
+}
+
+.count-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.count-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+.bull-num-cell {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.count-badge {
+  background: #d1fae5;
+  color: #065f46;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+
+.quick-increment-btn {
+  padding: 6px 12px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.quick-increment-btn:hover {
+  background: #15803d;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-wrap: wrap;
+  }
+  
+  .live-counting-header h1 {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    margin: 8px 0;
+  }
+  
+  .nav-btn {
+    font-size: 0.875rem;
+  }
+  
+  .bull-details-card {
+    padding: 32px 24px;
+  }
+  
+  .table-header {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  
+  .table-wrapper {
+    overflow-x: scroll;
+  }
+}
